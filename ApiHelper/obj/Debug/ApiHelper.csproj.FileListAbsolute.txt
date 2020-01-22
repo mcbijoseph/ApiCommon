@@ -1,0 +1,10 @@
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\bin\Debug\ApiHelper.dll
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\bin\Debug\ApiHelper.pdb
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\bin\Debug\System.Web.Mvc.dll
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\bin\Debug\System.Web.Mvc.xml
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\obj\Debug\ApiHelper.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\obj\Debug\ApiHelper.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\obj\Debug\ApiHelper.csproj.CopyComplete
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\obj\Debug\ApiHelper.dll
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\obj\Debug\ApiHelper.pdb
+C:\Users\Owner\source\repos\API4 - Vendor\ApiHelper\bin\Debug\ApiHelper.dll.config

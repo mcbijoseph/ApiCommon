@@ -1,0 +1,10 @@
+C:\Users\Owner\source\repos\API3\BL\bin\Debug\BL.dll
+C:\Users\Owner\source\repos\API3\BL\bin\Debug\BL.pdb
+C:\Users\Owner\source\repos\API3\BL\bin\Debug\DAL.dll
+C:\Users\Owner\source\repos\API3\BL\bin\Debug\DAL.pdb
+C:\Users\Owner\source\repos\API3\BL\bin\Debug\DAL.dll.config
+C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.dll
+C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.pdb

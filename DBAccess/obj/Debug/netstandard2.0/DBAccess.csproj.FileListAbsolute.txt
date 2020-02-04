@@ -1,0 +1,9 @@
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\bin\Debug\netstandard2.0\DBAccess.deps.json
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\bin\Debug\netstandard2.0\DBAccess.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\bin\Debug\netstandard2.0\DBAccess.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.AssemblyInfo.cs
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\DBAccess\obj\Debug\netstandard2.0\DBAccess.pdb

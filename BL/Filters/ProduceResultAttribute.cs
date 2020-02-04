@@ -6,24 +6,61 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using System.Net.Http.Formatting;
-
+using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
+using System.Threading;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace BL.Filters
 {
-    public class ProduceResultAttribute : ActionFilterAttribute
+    public class JsonResultAttribute : ActionFilterAttribute
     {
-        string _contentType = "";
-        public ProduceResultAttribute(string ContentType)
+        Type _getType = null;
+        public JsonResultAttribute(Type getType)
         {
-            _contentType = ContentType;
+            _getType = getType;
+        }
+        public JsonResultAttribute()
+        {
         }
         public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
         {
-            var objectContent = actionExecutedContext.Response.Content as ObjectContent;
-            if (objectContent != null && _contentType != "")
-                actionExecutedContext.Response.Content = new StringContent(objectContent.Value.ToString(), System.Text.Encoding.UTF8, _contentType);
+            
 
+            var objectContent = actionExecutedContext.Response.Content as ObjectContent;
+            if (objectContent != null)
+            {
+                //System.Net.Http.ObjectContent()
+                if (_getType == null)
+                    actionExecutedContext.Response.Content = new ObjectContent(objectContent.Value.GetType(), objectContent.Value, System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter, new MediaTypeHeaderValue("application/json"));// 
+                else
+                {
+                    actionExecutedContext.Response.Content = new ObjectContent(_getType, objectContent.Value, System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter, new MediaTypeHeaderValue("application/json"));
+                }
+            }
             base.OnActionExecuted(actionExecutedContext);
+        }
+
+    }
+    public class MyFormatter : MediaTypeFormatter
+    {
+        public MyFormatter(string format)
+        {
+
+            this.SupportedMediaTypes.Add(new MediaTypeHeaderValue(format));
+        }
+        
+        public override bool CanReadType(Type type)
+        {
+            //throw new NotImplementedException();
+           return true;
+        }
+
+        public override bool CanWriteType(Type type)
+        {
+            return true;
+            //throw new NotImplementedException();
         }
     }
 }

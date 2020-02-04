@@ -18,9 +18,14 @@ namespace BL
         void Dispose();
     }
 
-    public class SQLBL : DAL.SQL, ISQLBL
+    public class SQLBL : ISQLBL
     {
-        public SQLBL(string connectionString):base(connectionString) { }
+        SQL _sql;
+
+        public SQLBL(string connectionString) {
+            _sql = new SQL(connectionString);
+        }
+
         private System.Data.DataSet _ds;
         private JObject JSONHeader;
         private SqlException _Err;
@@ -50,7 +55,7 @@ namespace BL
        
         public System.Data.DataSet Execute(string procedureName, string json)
         {
-            var retVal = Execute(procedureName, JSONtoCommonParameter(json));
+            var retVal = _sql.Execute(procedureName, JSONtoCommonParameter(json));
             _ds =  retVal as System.Data.DataSet;
             if(_ds == null)
             {

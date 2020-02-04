@@ -17,3 +17,18 @@ C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL (Business Layer).csproj.CoreCom
 C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL (Business Layer).csproj.CopyComplete
 C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.dll
 C:\Users\Owner\source\repos\API3\BL\obj\Debug\BL.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\BL.dll.config
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\BL.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\BL.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\System.Web.Http.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\System.Web.Http.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\obj\Debug\BL (Business Layer).csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\obj\Debug\BL (Business Layer).csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\obj\Debug\BL (Business Layer).csproj.CopyComplete
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\obj\Debug\BL.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\obj\Debug\BL.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\DAL.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\DAL.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\BL\bin\Debug\DAL.dll.config

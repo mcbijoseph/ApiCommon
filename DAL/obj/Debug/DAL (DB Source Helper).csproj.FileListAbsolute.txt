@@ -5,3 +5,10 @@ C:\Users\Owner\source\repos\API3\DAL\obj\Debug\DAL (DB Source Helper).csproj.Cor
 C:\Users\Owner\source\repos\API3\DAL\obj\Debug\DAL.dll
 C:\Users\Owner\source\repos\API3\DAL\obj\Debug\DAL.pdb
 C:\Users\Owner\source\repos\API3\DAL\obj\Debug\DAL (DB Source Helper).csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\bin\Debug\DAL.dll.config
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\bin\Debug\DAL.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\bin\Debug\DAL.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL (DB Source Helper).csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL (DB Source Helper).csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL.pdb

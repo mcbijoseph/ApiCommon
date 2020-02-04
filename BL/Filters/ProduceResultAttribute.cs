@@ -31,12 +31,14 @@ namespace BL.Filters
             var objectContent = actionExecutedContext.Response.Content as ObjectContent;
             if (objectContent != null)
             {
-                //System.Net.Http.ObjectContent()
-                if (_getType == null)
+                if (objectContent.Value.GetType() == typeof(string))
+                    actionExecutedContext.Response.Content = new StringContent(objectContent.Value.ToString(), System.Text.Encoding.UTF8, "application/json");
+                else if(_getType == null)
                     actionExecutedContext.Response.Content = new ObjectContent(objectContent.Value.GetType(), objectContent.Value, System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter, new MediaTypeHeaderValue("application/json"));// 
                 else
                 {
-                    actionExecutedContext.Response.Content = new ObjectContent(_getType, objectContent.Value, System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter, new MediaTypeHeaderValue("application/json"));
+                   
+                        actionExecutedContext.Response.Content = new ObjectContent(_getType, objectContent.Value, System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter, new MediaTypeHeaderValue("application/json"));
                 }
             }
             base.OnActionExecuted(actionExecutedContext);

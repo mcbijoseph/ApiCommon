@@ -6,7 +6,6 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using System.Net.Http.Formatting;
-using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;

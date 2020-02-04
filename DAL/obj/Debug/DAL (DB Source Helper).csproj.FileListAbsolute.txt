@@ -12,3 +12,9 @@ C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL (DB Source Helper
 C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL (DB Source Helper).csproj.CoreCompileInputs.cache
 C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL.dll
 C:\Users\Owner\Desktop\inventories\ApiCommon\DAL\obj\Debug\DAL.pdb
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Debug\DAL.dll.config
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Debug\DAL.dll
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Debug\DAL.pdb
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\obj\Debug\DAL (DB Source Helper).csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\obj\Debug\DAL.dll
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\obj\Debug\DAL.pdb

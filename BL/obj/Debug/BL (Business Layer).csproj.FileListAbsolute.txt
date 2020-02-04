@@ -38,9 +38,7 @@ C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\BL.pdb
 C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\DAL.dll
 C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\DAL.pdb
 C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\DAL.dll.config
-C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\LENOVO\Desktop\ApiCommon\BL\bin\Debug\System.Web.Http.xml
-C:\Users\LENOVO\Desktop\ApiCommon\BL\obj\Debug\BL (Business Layer).csprojAssemblyReference.cache
 C:\Users\LENOVO\Desktop\ApiCommon\BL\obj\Debug\BL (Business Layer).csproj.CopyComplete
 C:\Users\LENOVO\Desktop\ApiCommon\BL\obj\Debug\BL.dll
 C:\Users\LENOVO\Desktop\ApiCommon\BL\obj\Debug\BL.pdb
+C:\Users\LENOVO\Desktop\ApiCommon\BL\obj\Debug\BL (Business Layer).csprojAssemblyReference.cache

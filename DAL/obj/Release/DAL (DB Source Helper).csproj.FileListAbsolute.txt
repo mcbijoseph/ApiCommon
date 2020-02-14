@@ -1,0 +1,5 @@
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Release\DAL.dll.config
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Release\DAL.dll
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\bin\Release\DAL.pdb
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\obj\Release\DAL.dll
+C:\Users\LENOVO\Desktop\ApiCommon\DAL\obj\Release\DAL.pdb

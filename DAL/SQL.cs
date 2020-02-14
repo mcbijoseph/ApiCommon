@@ -29,7 +29,7 @@ namespace DAL
 
             //ADDING DICTIONARY CONNECTION BASED ON PREFIX
             string ss = _connectionString;// Properties.Settings.Default.connectionString;
-
+            
             using (SqlDataAdapter adap = new SqlDataAdapter(_SPName, ss))
             {
                 try
@@ -45,6 +45,7 @@ namespace DAL
                     return e;
                 }
             }
+
             return dat;
         }
     }

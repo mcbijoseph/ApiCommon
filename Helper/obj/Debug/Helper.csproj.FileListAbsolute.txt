@@ -1,0 +1,30 @@
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\Helper.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\Helper.pdb
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.Helpers.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.Razor.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.Helpers.xml
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.Razor.xml
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.xml
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\obj\Debug\Helper.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\obj\Debug\Helper.dll
+C:\Users\LENOVO\source\repos\Inventory-API4\Helper\obj\Debug\Helper.pdb
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Helper.dll
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Helper.pdb
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\System.Web.Mvc.dll
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\System.Web.Mvc.xml
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\obj\Debug\Helper.csproj.CopyComplete
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\obj\Debug\Helper.dll
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\obj\Debug\Helper.pdb
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Inventory Domain Layer.dll
+C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Inventory Domain Layer.pdb

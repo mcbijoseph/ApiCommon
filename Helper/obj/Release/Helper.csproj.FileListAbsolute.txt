@@ -1,0 +1,14 @@
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Helper.dll.config
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Helper.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Helper.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Inventory Domain Layer.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Newtonsoft.Json.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\System.Web.Mvc.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Inventory Domain Layer.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\Newtonsoft.Json.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Release\System.Web.Mvc.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Release\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Release\Helper.csproj.CopyComplete
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Release\Helper.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Release\Helper.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Release\Helper.csprojAssemblyReference.cache

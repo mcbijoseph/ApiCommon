@@ -28,14 +28,21 @@ C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Newtonsoft.Jso
 C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Inventory Domain Layer.dll
 C:\Users\Owner\Desktop\inventories\InventoryAPI4\Helper\bin\Debug\Inventory Domain Layer.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Helper.dll.config
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Helper.dll
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Helper.pdb
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Inventory Domain Layer.dll
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Web.Http.dll
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Web.Mvc.dll
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Inventory Domain Layer.pdb
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Web.Http.xml
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\System.Web.Mvc.xml
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.csprojAssemblyReference.cache
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.csproj.CopyComplete
+C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.dll
 C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.pdb
-C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\bin\Debug\Helper.exe
-C:\Users\Owner\Desktop\inventories\ApiCommon\Helper\obj\Debug\Helper.exe

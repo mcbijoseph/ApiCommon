@@ -120,7 +120,7 @@ namespace Helper
             }
             if (!isValid)
             {
-                actionContext.Response = new HttpResponseMessage(HttpStatusCode.NotFound);
+                actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized);
             }
 
             //Console.Write(isValid);

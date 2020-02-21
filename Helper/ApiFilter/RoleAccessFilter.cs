@@ -15,7 +15,7 @@ namespace Helper
 {
     public class RoleAccessDataAttribute : ActionFilterAttribute
     {
-        RoleAccess _ra;
+        public RoleAccess _ra;
 
 
         /// <summary>
@@ -29,12 +29,24 @@ namespace Helper
         /// <param name="TokenKey"> Token Key Name from Requests Header </param>
         public RoleAccessDataAttribute(string apiLink, string method, string map, string TestExpression, string UserIDKey, string TokenKey)
         {
+
+
+
             _ra = new RoleAccess();
             _ra.tokenKey = TokenKey;
             _ra.userIDKey = UserIDKey;
             _ra.apiLink = apiLink;
             _ra.method = method.ToUpper();
             _ra.map = map;
+            if (TestExpression != null)
+            {
+                SetMatchExpression(TestExpression);
+            }
+        }
+
+        public void SetMatchExpression(string TestExpression)
+        {
+            TestExpression = TestExpression.ToLower();
             _ra.TestMatchExpressionValue = new Dictionary<string, string>();
             foreach (string ex in TestExpression.Split(','))
             {
@@ -46,7 +58,6 @@ namespace Helper
                 }
             }
         }
-
 
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
@@ -96,7 +107,7 @@ namespace Helper
                 {
                     //None Case Sensitive 
                     string jValue = j.GetValue(s, StringComparison.OrdinalIgnoreCase)?.Value<string>().ToLower();
-                    if (jValue == _ra.TestMatchExpressionValue[s].ToLower())
+                    if (jValue == _ra.TestMatchExpressionValue[s])
                     {
                         validCount--;
                     }
@@ -116,15 +127,15 @@ namespace Helper
             base.OnActionExecuting(actionContext);
         }
     }
-    class RoleAccess
+    public class RoleAccess
     {
         public string apiLink { get; set; }
         public string map { get; set; }
         public string method { get; set; }
         public Dictionary<string, string> TestMatchExpressionValue { get; set; }
         public string userIDKey { get; set; }
-        public string tokenKey { get; set;}
+        public string tokenKey { get; set; }
 
     }
-   
+
 }

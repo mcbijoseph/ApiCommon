@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
     "\\BL",
-    "\\BL\\Filters"
+    "\\Helper"
   ],
-  "SelectedNode": "\\BL\\Filters\\ProduceResultAttribute.cs",
   "PreviewInSolutionExplorer": false
 }

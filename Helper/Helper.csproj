@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JsonArrayToggler.cs" />
     <Compile Include="PasswordSecurity.cs" />
     <Compile Include="ObjectToTable.cs">
       <SubType>Component</SubType>

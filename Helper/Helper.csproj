@@ -73,7 +73,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\InventoryAPI4\Inventory Domain Layer\Inventory.Domain.csproj">
+    <ProjectReference Include="..\..\..\Source\Repos\Inventory-API4\Inventory Domain Layer\Inventory.Domain.csproj">
       <Project>{b4fd9a3c-dff1-42e3-af45-7f914929e280}</Project>
       <Name>Inventory.Domain</Name>
     </ProjectReference>

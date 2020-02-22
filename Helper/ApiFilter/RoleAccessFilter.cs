@@ -62,14 +62,14 @@ namespace Helper
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
             var request = actionContext.ControllerContext.Request.Headers;
-            string ID = "9";
-            string Token = "XUpGOIEZBZhrB1hg32CHXopNg";
+            string ID = "0";
+            string Token = "0";
 
             if (request.Contains(_ra.userIDKey))
             {
                 ID = request.GetValues(_ra.userIDKey).First();
             }
-            else if (request.Contains(_ra.tokenKey))
+            if (request.Contains(_ra.tokenKey))
             {
                 Token = request.GetValues(_ra.tokenKey).First();
             }
@@ -96,7 +96,7 @@ namespace Helper
                 jArray = jObject[_ra.map] as JArray;
             }
             //SENT INVALID EMPTY
-            if (jArray == null || jArray.Count <= 0) return;
+            if (jArray == null || jArray.Count <= 0) actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized); ;
 
             bool isValid = false;
             foreach (JObject j in jArray)
@@ -120,7 +120,7 @@ namespace Helper
             }
             if (!isValid)
             {
-                actionContext.Response = new HttpResponseMessage(HttpStatusCode.NotFound);
+                actionContext.Response = new HttpResponseMessage(HttpStatusCode.Unauthorized);
             }
 
             //Console.Write(isValid);

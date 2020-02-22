@@ -6,13 +6,23 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 namespace Helper
 {
+    /// <summary>
+    /// SAMPLE:
+    /// JArray jAr = new JArray();
+    /// Helper.JsonArrayToggler tog = new Helper.JsonArrayToggler(jAr, "", "style=\"display:none\"", "disabled=\"disabled\"");
+    /// bool b = tog["defaultElement=control-inventory-names-add, isAllowed=false"].GetValue<bool>("isHideifDisabled");
+    /// b = tog["defaultElement=control-inventory-names-add"].GetValue<bool>("isAllowed");
+    /// string ss = tog["defaultElement=control-inventory-names-add, isAllowed=false"]["isHideifDisabled"];
+    /// 
+    /// 
+    /// </summary>
+
     public class JsonArrayToggler
     {
         private JArray _testArray;
         private Dictionary<string, string> _TestExpression;
-        string OkResult;
-        string NotOkResult;
-
+        ToggleExpressionResult TExpression { get; set; }
+        
         private void SetMatchExpression(string TestExpression)
         {
             TestExpression = TestExpression.ToLower();
@@ -29,19 +39,25 @@ namespace Helper
         }
 
 
-        public JsonArrayToggler(JArray jArray, string TestExpression, string OKresult, string NotOKresult)
+        public JsonArrayToggler(JArray jArray, string Default, string OKresult, string NotOKresult)
         {
-            OkResult = OKresult;
-            NotOkResult = NotOKresult;
+            TExpression = new ToggleExpressionResult();
+            TExpression.Default = Default;
+            TExpression.OK = OKresult;
+            TExpression.NotOK = NotOKresult;
             _testArray = jArray;
-            SetMatchExpression(TestExpression);
         }
-
-        public virtual string this[string findName]
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="findMatchExpression">var1=val1, var2=val2</param>
+        /// <returns></returns>
+        public virtual ToggleExpressionResult this[string findMatchExpression]
         {
             get
             {
-                bool isValid = false;
+                TExpression.TargetElement = null;
+                SetMatchExpression(findMatchExpression);
                 foreach (JObject j in _testArray)
                 {
                     //Validation
@@ -57,15 +73,59 @@ namespace Helper
                     }
                     if (validCount == 0)
                     {
-                        isValid = true;
+                        TExpression.TargetElement = j;
                         break;
                     }
                 }
-                if (isValid)
-                    return OkResult;                
-                return NotOkResult;
+
+                return TExpression;
             }
         }
-
     }
+    public class ToggleExpressionResult
+    {
+        public string Default { get; set; }
+        public string OK { get; set; }
+        public string NotOK { get; set; }
+        public JObject TargetElement { get; set; }
+
+        public override string ToString()
+        {
+            if (TargetElement == null)
+                return NotOK;
+            return OK;
+        }
+
+        public string this[string target, string targetval]
+        {
+            get {
+                if (TargetElement == null)
+                    return Default;
+
+               if( TargetElement.GetValue(target, StringComparison.OrdinalIgnoreCase)?.Value<string>().ToLower() == targetval.ToLower())
+                    return OK;
+                return NotOK;
+            }
+        }
+        public string this[string boolTarget]
+        {
+            get
+            {
+                return this[boolTarget, "true"];
+            }
+
+        }
+
+        public T GetValue<T>(string objectName)
+        {
+            // if (TargetElement == null)
+            // return null;
+            if (TargetElement == null)
+                return default(T);
+
+            return TargetElement.GetValue(objectName, StringComparison.OrdinalIgnoreCase).Value<T>();
+        }
+    }
+
+
 }

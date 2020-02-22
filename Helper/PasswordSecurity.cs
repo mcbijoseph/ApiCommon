@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Helper
 {
+    /// <summary>
+    /// PASSWORD SECURITY
+    /// </summary>
     public class PasswordSecurity
     {
         private const int SaltSize = 16;

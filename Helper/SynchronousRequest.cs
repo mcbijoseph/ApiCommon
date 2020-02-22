@@ -40,6 +40,9 @@ namespace Helper
 
         public string HttpRequest(string url, string Method = "Get", HttpContent content = null)
         {
+            if (Method != null)
+                Method = Method.ToUpper();
+
             //ApiHelper ap = new ApiHelper();
             HttpResponseMessage response = null;
 
